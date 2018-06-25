@@ -1,0 +1,44 @@
+﻿Build started 2018/6/21 16:27:47.
+     1>Project "F:\current work\CL_Improve\CL_Improve\CL_Improve.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D CL_IMPROVE_EXPORTS /D _WINDLL /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /FC /errorReport:prompt Cof_Tools.cpp Control_flag.cpp Python_lib.cpp TestBlockControlGroup.cpp Test_Block.cpp Thread_Tools.cpp Treasure_save.cpp User_Variable.cpp datalog.cpp funv.cpp
+         funv.cpp
+         datalog.cpp
+         User_Variable.cpp
+         Treasure_save.cpp
+         Thread_Tools.cpp
+         Test_Block.cpp
+         TestBlockControlGroup.cpp
+         Python_lib.cpp
+         Control_flag.cpp
+         Cof_Tools.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\current work\CL_Improve\Debug\CL_Improve.dll" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"F:\current work\CL_Improve\Debug\CL_Improve.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\current work\CL_Improve\Debug\CL_Improve.lib" /MACHINE:X86 /DLL Debug\Cof_Tools.obj
+         Debug\Control_flag.obj
+         Debug\datalog.obj
+         Debug\funv.obj
+         Debug\Python_lib.obj
+         Debug\TestBlockControlGroup.obj
+         Debug\Test_Block.obj
+         Debug\Thread_Tools.obj
+         Debug\Treasure_save.obj
+         Debug\User_Variable.obj
+            Creating library F:\current work\CL_Improve\Debug\CL_Improve.lib and object F:\current work\CL_Improve\Debug\CL_Improve.exp
+         CL_Improve.vcxproj -> F:\current work\CL_Improve\Debug\CL_Improve.dll
+       PostBuildEvent:
+         mkdir "D:\Script\Engineering\M2\CL_Driver\CL_Improve";
+         copy "F:\current work\CL_Improve\Debug\CL_Improve.dll" "D:\Script\Engineering\M2\CL_Driver\CL_Improve";
+         copy "F:\current work\CL_Improve\Debug\CL_Improve.dll" "C:\nextest\_production\testprogram";
+         copy "F:\current work\CL_Improve\CL_Improve\CL_Improve.h" "D:\Script\Engineering\M2\CL_Driver\CL_Improve";
+         copy "F:\current work\CL_Improve\Debug\CL_Improve.lib" "D:\Script\Engineering\M2\CL_Driver\CL_Improve";
+         :VCEnd
+         已复制         1 个文件。
+         已复制         1 个文件。
+         已复制         1 个文件。
+         已复制         1 个文件。
+     1>Done Building Project "F:\current work\CL_Improve\CL_Improve\CL_Improve.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:53.47
