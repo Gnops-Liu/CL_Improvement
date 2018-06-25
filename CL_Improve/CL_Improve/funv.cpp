@@ -70,6 +70,18 @@ void CC_Path(CString Type_path, bool datalog_control)
 	}
 }
 
+void CL_version()
+{
+	output("***********************************");
+	output("*You have load <COLOR=MAROON>CL_Dll</COLOR> Successfully*");
+	output("*Current version:V2.0             *");
+	output("*Recent Modification: 2018.6.25   *");
+	output("*Group: Colin Liu                 *");
+	output("*If you have any improvement sugge*");
+	output("*st send to: gnops.liu@outlook.com*");
+	output("***********************************");
+}
+
 
 //timer
 CL_Timer TIMER;
@@ -110,6 +122,7 @@ CString		Double2CString(double val)
 	temp.Format("%lf", val);
 	return temp;
 }
+
 
 //CL_CSV func
 CL_CSV CSV;

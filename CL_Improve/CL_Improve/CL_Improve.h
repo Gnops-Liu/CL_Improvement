@@ -45,7 +45,7 @@ SHARING_PORT_API EXTERN_BOOL_VARIABLE(UI_CREATE_DATALOG_FILE_FLAG);
 SHARING_PORT_API EXTERN_BOOL_VARIABLE(UI_DATALOG_HOST); 
 SHARING_PORT_API EXTERN_BOOL_VARIABLE(UI_DATALOG_SITE);
 SHARING_PORT_API EXTERN_INT_VARIABLE(Max_Site);
-
+//TODO: Need to be improved
 /*?*/SHARING_PORT_API EXTERN_INT_VARIABLE(HOST_CSV_INDEX);
 /*?*/SHARING_PORT_API EXTERN_VOID_VARIABLE(HOST_FILEOUT);
 /*?*/SHARING_PORT_API EXTERN_INT_VARIABLE(pipe_index);
@@ -58,6 +58,15 @@ SHARING_PORT_API extern void Show_All_Site_Info(void);
 SHARING_PORT_API extern void	SMutex(void);
 SHARING_PORT_API extern int		folder_existed(CString);
 SHARING_PORT_API extern void	CC_Path(CString, bool = TRUE);
+
+SHARING_PORT_API void initcntr();
+SHARING_PORT_API void startcntr();
+SHARING_PORT_API void startseqcntr();
+SHARING_PORT_API void startpattimer();
+SHARING_PORT_API double stopcntr();
+SHARING_PORT_API double stopseqcntr();
+SHARING_PORT_API double stoppattimer();
+
 #define CString2Char(str) str.GetBuffer(str.GetLength())
 SHARING_PORT_API extern CString	Int2CString(int);
 SHARING_PORT_API extern CString	Double2CString(double);

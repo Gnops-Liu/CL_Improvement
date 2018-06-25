@@ -3,6 +3,7 @@
 void CL_SiteBeginBlock(void)
 {
 	TB.initial();
+	CL_version();
 }
 
 BEFORE_TESTING_BLOCK(tb_CL_Improve_init)

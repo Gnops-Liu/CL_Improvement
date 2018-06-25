@@ -100,6 +100,7 @@ copy "$(OutDir)CL_Improve.lib" "D:\Script\Engineering\M2\CL_Driver\$(AssemblyNam
     <ClCompile Include="TestBlockControlGroup.cpp" />
     <ClCompile Include="Test_Block.cpp" />
     <ClCompile Include="Thread_Tools.cpp" />
+    <ClCompile Include="timer.cpp" />
     <ClCompile Include="Treasure_save.cpp" />
     <ClCompile Include="User_Variable.cpp" />
   </ItemGroup>

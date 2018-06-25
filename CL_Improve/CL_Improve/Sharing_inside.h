@@ -1,5 +1,8 @@
 #define  HOST 0
 //object
+
+
+
 static CL_Timer colin_timer;
 extern SiteMask cl_site_mask;
 
@@ -7,6 +10,7 @@ extern SiteMask cl_site_mask;
 extern bool CreateMyProcess(char *);
 extern bool CL_Remove(CString cmd);
 extern void CL_Comment(CString str);
+extern void CL_version();
 extern void	flag(int);
 
 EXTERN_VOID_VARIABLE(SMutex_Clear);
